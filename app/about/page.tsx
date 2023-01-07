@@ -14,7 +14,7 @@ export default function About() {
   const users = use(fetchUsers())
   return (
     <div>
-      <h1>GitHub Users!</h1>
+      <h1>GitHub Users!(AboutPage)</h1>
       <div>
         {users.map((user) => {
           return (
